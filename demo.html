@@ -7,10 +7,33 @@
 	</head>
 	<body>
 		<form action="">
-			<input type="email" placeholder="Email пользователя" />
-			<input type="password" placeholder="Password пользователя" />
-			<input type="date" placeholder="Дата рождения пользователя" />
-			<input type="color" placeholder="Дата рождения пользователя" />
+			<div>
+				<label for="email">Введите E-mail пользователя</label>
+				<input type="email" placeholder="Email пользователя" id="email" />
+			</div>
+			<div>
+				<label for="password">Введите пароль пользователя</label>
+				<input
+					type="password"
+					placeholder="Password пользователя"
+					id="password"
+				/>
+			</div>
+			<div>
+				<label for="birth-date">Введите дату рождения пользователя</label>
+				<input
+					type="date"
+					placeholder="Дата рождения пользователя"
+					id="birth-date"
+				/>
+			</div>
+			<div>
+				<label for="color">Введите цвет</label>
+				<input type="color" id="color" />
+			</div>
+			<div>
+				<label><span>Введите число</span><input type="number" /></label>
+			</div>
 		</form>
 	</body>
 </html>
