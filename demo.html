@@ -6,7 +6,7 @@
 		<title>Demo</title>
 	</head>
 	<body>
-		<form action="">
+		<form action="/test">
 			<div>
 				<label for="email">Введите E-mail пользователя</label>
 				<input type="email" placeholder="Email пользователя" id="email" />
@@ -34,6 +34,12 @@
 			<div>
 				<label><span>Введите число</span><input type="number" /></label>
 			</div>
+			<button type="submit">Кнопка</button>
+			<button type="reset">Сброс</button>
+			<!--Не рекомендуется так делать-->
+			<input type="submit" value="Кнопка submit" />
+			<!--Не рекомендуется так делать-->
 		</form>
+		<button>Кнопка вне формы</button>
 	</body>
 </html>
