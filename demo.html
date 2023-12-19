@@ -7,9 +7,16 @@
 	</head>
 	<body>
 		<form action="/test">
+			<input type="hidden" name="hid" />
+			<!-- /test?hid=&email=&password=&birth-date=&color=%23000000 -->
 			<div>
 				<label for="email">Введите E-mail пользователя</label>
-				<input type="email" placeholder="Email пользователя" id="email" />
+				<input
+					type="email"
+					placeholder="Email пользователя"
+					id="email"
+					name="email"
+				/>
 			</div>
 			<div>
 				<label for="password">Введите пароль пользователя</label>
@@ -17,6 +24,7 @@
 					type="password"
 					placeholder="Password пользователя"
 					id="password"
+					name="password"
 				/>
 			</div>
 			<div>
@@ -25,11 +33,12 @@
 					type="date"
 					placeholder="Дата рождения пользователя"
 					id="birth-date"
+					name="birth-date"
 				/>
 			</div>
 			<div>
 				<label for="color">Введите цвет</label>
-				<input type="color" id="color" />
+				<input type="color" id="color" name="color" />
 			</div>
 			<div>
 				<label><span>Введите число</span><input type="number" /></label>
