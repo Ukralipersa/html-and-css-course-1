@@ -6,49 +6,40 @@
 		<title>Demo</title>
 	</head>
 	<body>
-		<form action="/test">
-			<input type="hidden" name="hid" />
-			<!-- /test?hid=&email=&password=&birth-date=&color=%23000000 -->
+		<form action="https://www.youtube.com/results">
 			<div>
-				<label for="email">Введите E-mail пользователя</label>
+				<label for="search">Введите запрос</label>
 				<input
-					type="email"
-					placeholder="Email пользователя"
-					id="email"
-					name="email"
+					type="text"
+					placeholder="Найти..."
+					name="search_query"
+					id="search"
 				/>
 			</div>
 			<div>
-				<label for="password">Введите пароль пользователя</label>
-				<input
-					type="password"
-					placeholder="Password пользователя"
-					id="password"
-					name="password"
-				/>
+				<label for="agree">Согласен с обработкой данных</label>
+				<input type="checkbox" name="agree" id="agree" checked />
 			</div>
 			<div>
-				<label for="birth-date">Введите дату рождения пользователя</label>
-				<input
-					type="date"
-					placeholder="Дата рождения пользователя"
-					id="birth-date"
-					name="birth-date"
-				/>
+				<label for="all">Поиск повсюду</label>
+				<input type="radio" name="search" id="all" value="all" />
 			</div>
 			<div>
-				<label for="color">Введите цвет</label>
-				<input type="color" id="color" name="color" />
+				<label for="youtube">Поиск youtube</label>
+				<input type="radio" name="search" id="youtube" value="youtube" />
 			</div>
 			<div>
-				<label><span>Введите число</span><input type="number" /></label>
+				<label for="topic">Тематика</label
+				><select name="topic" id="topic">
+					<option value="1">Все</option>
+					<optgroup label="Популярные">
+						<option value="2">Тема №1</option>
+						<option value="3">Тема №2</option>
+						<option value="4" selected>Тема №3</option>
+					</optgroup>
+				</select>
 			</div>
-			<button type="submit">Кнопка</button>
-			<button type="reset">Сброс</button>
-			<!--Не рекомендуется так делать-->
-			<input type="submit" value="Кнопка submit" />
-			<!--Не рекомендуется так делать-->
+			<button>Искать на youtube</button>
 		</form>
-		<button>Кнопка вне формы</button>
 	</body>
 </html>
