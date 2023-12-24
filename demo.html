@@ -6,7 +6,7 @@
 		<title>Demo</title>
 	</head>
 	<body>
-		<form action="https://www.youtube.com/results">
+		<form action="/test">
 			<div>
 				<label for="search">Введите запрос</label>
 				<input
@@ -14,6 +14,11 @@
 					placeholder="Найти..."
 					name="search_query"
 					id="search"
+					title="Введите только цифры"
+					minlength="3"
+					maxlength="9"
+					pattern="/^\d+$/"
+					required
 				/>
 			</div>
 			<div>
