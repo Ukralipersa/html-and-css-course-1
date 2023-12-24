@@ -1,11 +1,21 @@
-label {
-	color: red;
+main {
+	background-color: #1e1f29;
 }
 
 h1 {
-	color: green;
+	color: #fafafa;
 }
-div {
-	background-color: bisque;
-	/* background: bisque; */
+
+input,
+textarea,
+select {
+	background: #2e2d3d;
+	color: #fafafa;
+}
+label {
+	color: #afb2bf;
+}
+button {
+	background-color: #6c38cc;
+	color: #fafafa;
 }
