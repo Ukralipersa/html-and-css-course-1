@@ -4,6 +4,35 @@
 }
 
 .link {
-	color: #4262ff;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 18px;
 	text-decoration: underline;
+
+	color: #4262ff;
+}
+
+h1,
+h2 {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 56px;
+
+	color: #050038;
+}
+
+p {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.heroText {
+	color: #050038;
+}
+
+.sectionText {
+	color: #05003899;
 }
