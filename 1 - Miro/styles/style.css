@@ -36,3 +36,13 @@ p {
 .sectionText {
 	color: #05003899;
 }
+
+header a {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+
+	color: #050038;
+}
