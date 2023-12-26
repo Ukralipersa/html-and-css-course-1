@@ -15,12 +15,12 @@
 	background-color: #7ab6ea;
 }
 
-ul li:first-child {
-	color: #12b622;
+ul li:nth-last-child(1) {
+	color: #b61212;
 }
 
-ul li:last-child {
-	color: #b61212;
+p:not(.sectionText) {
+	color: #ff0000;
 }
 
 .link {
