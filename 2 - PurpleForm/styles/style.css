@@ -15,14 +15,20 @@ select {
 	background: #2e2d3d;
 	color: #fafafa;
 }
+
+input:invalid {
+	background-color: red;
+}
+
+input:valid {
+	background-color: green;
+}
+
 label {
 	color: #afb2bf;
 }
+
 button {
 	background-color: #6c38cc;
 	color: #fafafa;
-}
-
-input[type='email'] {
-	background: red;
 }

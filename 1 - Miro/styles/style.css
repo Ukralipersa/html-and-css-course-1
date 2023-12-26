@@ -3,6 +3,26 @@
 	color: #ffffff;
 }
 
+#heroButton:hover {
+	background-color: #122db6;
+}
+
+#heroButton:active {
+	background-color: #ff0000;
+}
+
+.heroForm input:focus {
+	background-color: #7ab6ea;
+}
+
+ul li:first-child {
+	color: #12b622;
+}
+
+ul li:last-child {
+	color: #b61212;
+}
+
 .link {
 	font-family: Roboto;
 	font-weight: 400;
@@ -10,6 +30,10 @@
 	text-decoration: underline;
 
 	color: #4262ff;
+}
+
+.link:hover {
+	color: #ffe100;
 }
 
 h1,
