@@ -11,6 +11,10 @@
 	background-color: #ff0000;
 }
 
+button {
+	background-color: #ffffff !important;
+}
+
 .heroForm input:focus {
 	background-color: #7ab6ea;
 }
