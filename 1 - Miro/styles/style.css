@@ -11,8 +11,8 @@
 	background-color: #ff0000;
 }
 
-button {
-	background-color: #ffffff !important;
+body {
+	color: blueviolet;
 }
 
 .heroForm input:focus {
