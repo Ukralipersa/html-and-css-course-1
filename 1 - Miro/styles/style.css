@@ -80,3 +80,19 @@ nav ul {
 	list-style-type: none;
 	list-style-image: url('../images/check.svg');
 }
+
+.experimentRed {
+	background-color: red;
+}
+
+div.experimentBlue {
+	background-color: darkorange;
+}
+
+.experimentBlue {
+	background-color: blue;
+}
+
+div {
+	background-color: black;
+}
