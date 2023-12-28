@@ -11,10 +11,6 @@
 	background-color: #ff0000;
 }
 
-body {
-	color: blueviolet;
-}
-
 .heroForm input:focus {
 	background-color: #7ab6ea;
 }
@@ -85,18 +81,9 @@ nav ul {
 	list-style-image: url('../images/check.svg');
 }
 
-.experimentRed {
-	background-color: red;
-}
-
-div.experimentBlue {
-	background-color: darkorange;
-}
-
 .experimentBlue {
 	background-color: blue;
-}
-
-div {
-	background-color: black;
+	width: 400px;
+	height: 300px;
+	color: white;
 }
