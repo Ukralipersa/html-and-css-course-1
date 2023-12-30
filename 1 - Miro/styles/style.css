@@ -127,3 +127,34 @@ nav ul {
 	list-style-type: none;
 	list-style-image: url('../images/check.svg');
 }
+
+.exp div {
+	width: 200px;
+	height: 200px;
+	background-color: #050038;
+	margin: 10px;
+	transition: margin-left 2s;
+}
+
+.exp div:nth-child(1) {
+	margin-left: 400px;
+	transition-timing-function: ease-out;
+}
+.exp div:nth-child(2) {
+	margin-left: 400px;
+	transition-timing-function: ease-in;
+}
+.exp div:nth-child(3) {
+	margin-left: 400px;
+	transition-timing-function: linear;
+}
+
+.exp div:nth-child(4) {
+	margin-left: 400px;
+	transition-timing-function: cubic-bezier(6, end);
+}
+
+.exp div:nth-child(5) {
+	margin-left: 400px;
+	transition-timing-function: cubic-bezier(0.03, 0.72, 0.91, 0.43);
+}
