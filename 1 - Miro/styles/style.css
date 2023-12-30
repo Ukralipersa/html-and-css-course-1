@@ -157,29 +157,65 @@ nav ul {
 	display: inline;
 }
 
-.spanR {
+.c1 {
 	background-color: red;
 	display: inline-block;
 	padding: 20px;
 	margin: 20px;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 }
 
-.spanB {
+.c2 {
 	background-color: blue;
 	display: inline-block;
 	padding: 20px;
 	margin: 20px;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 }
 
-.spanG {
+.c3 {
 	background-color: green;
 	display: inline-block;
 	padding: 20px;
 	margin: 20px;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
+}
+
+.static .c2 {
+	position: static;
+}
+
+.relative .c2 {
+	position: relative;
+	top: 50px;
+	left: -50px;
+}
+
+.absolute {
+	position: relative;
+}
+
+.absolute .c2 {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+.fixed .c2 {
+	/* position: fixed; */
+	top: 50px;
+	left: 50px;
+}
+
+.stycky .c2 {
+	position: sticky;
+	top: 50px;
+	left: 50px;
+}
+
+.stycky {
+	height: 600px;
 }
