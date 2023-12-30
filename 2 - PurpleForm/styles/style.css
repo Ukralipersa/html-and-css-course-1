@@ -62,8 +62,10 @@ button {
 	color: #fafafa;
 
 	background-color: #6c38cc;
+	border-radius: 10px;
 	border: none;
 	padding: 12px 24px;
+	margin-top: 8px;
 }
 
 input::placeholder,
