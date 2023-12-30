@@ -29,10 +29,12 @@ footer a {
 	border: 1px solid #4262ff;
 	border-radius: 32px;
 	padding: 10px 20px;
+	transition: background-color 1s 1s, border-radius 2s 1s;
 }
 
 #heroButton:hover {
 	background-color: #122db6;
+	border-radius: 50%;
 }
 
 #heroButton:active {
@@ -124,9 +126,4 @@ nav ul {
 .sectionList {
 	list-style-type: none;
 	list-style-image: url('../images/check.svg');
-}
-
-footer {
-	height: 100vh;
-	width: 100vw;
 }
