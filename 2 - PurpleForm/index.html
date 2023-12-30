@@ -5,12 +5,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Demo</title>
 		<link rel="stylesheet" href="./styles/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<main>
 			<h1>Свяжитесь со мной</h1>
 			<form action="/test">
-				<div>
+				<div class="field">
+					<img src="./images/message.svg" alt="" />
 					<label for="mail">E-mail</label
 					><input
 						type="email"
@@ -20,7 +25,8 @@
 						required
 					/>
 				</div>
-				<div>
+				<div class="field">
+					<img src="./images/telegram.svg" alt="" />
 					<label for="telegram">Telegram</label
 					><input
 						type="text"
@@ -29,7 +35,8 @@
 						placeholder="Введите telegram"
 					/>
 				</div>
-				<div>
+				<div class="field">
+					<img src="./images/topic.svg" alt="" />
 					<label for="theme">Тема</label
 					><select name="theme" id="theme" required>
 						<option value="courses">Приобретение курсов</option>
