@@ -11,6 +11,9 @@ body {
 .container {
 	border: 10px solid #6c38cc;
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 100vh;
 }
 
 .item {
@@ -18,14 +21,10 @@ body {
 	border: 1px solid #6c38cc;
 	text-align: center;
 	padding: 10px;
-	flex-basis: 300px;
+	flex-basis: 150px;
 	flex-grow: 1;
 }
 
-.item1 {
-	flex: 1 1 300px;
-}
-
-.item2 {
-	flex: 5 0 100px;
+.item4 {
+	flex-grow: 5;
 }
