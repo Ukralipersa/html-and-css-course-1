@@ -71,7 +71,7 @@ h2 {
 	font-family: Roboto;
 	font-weight: 400;
 	/* font-size: 48px; */
-	font-size: 4vmin;
+	font-size: max(4vmax, 48px);
 	line-height: 56px;
 
 	color: #050038;
@@ -130,7 +130,7 @@ nav ul {
 }
 
 .exp div {
-	width: calc(100% / 3);
+	width: max(20%, 200px);
 	/* width: calc(100% - 10rem - 20px); */
 	height: 200px;
 	background-color: #38001e;
