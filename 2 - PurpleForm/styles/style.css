@@ -10,6 +10,9 @@ main {
 	background-color: #1e1f29;
 	border-radius: 10px;
 	padding: 48px;
+	max-width: 600px;
+	min-width: 360px;
+	margin: 0 auto;
 }
 
 .field {
@@ -43,7 +46,7 @@ textarea {
 	padding: 27px 48px 12px;
 	border-radius: 10px;
 	border: none;
-	width: 50%;
+	width: 100%;
 }
 
 label {
