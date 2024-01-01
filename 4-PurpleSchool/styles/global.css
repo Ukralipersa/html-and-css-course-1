@@ -1,0 +1,23 @@
+:root {
+	--color-primary: #6c38cc;
+	--color-text: #fafafa;
+	--color-link-hover: #afb2bf;
+	--color-bg: #48494d;
+	--color-bg-medium: #1e1f29;
+	--color-bg-light: #2e2d3d;
+	--color-stroke: #2e2d3d;
+	--border-8: 8px;
+}
+
+body {
+	background: var(--color-bg);
+	margin: 0;
+
+	font-family: Fira Sans;
+	font-style: normal;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
