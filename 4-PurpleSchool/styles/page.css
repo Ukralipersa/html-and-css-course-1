@@ -52,7 +52,7 @@
 
 .courses_wrapper {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 70px;
 }
 
@@ -60,6 +60,10 @@
 	.hero {
 		flex-direction: column;
 	}
+	/* .courses_wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	} */
+
 	.hero__h1 {
 		text-align: center;
 	}
@@ -73,9 +77,15 @@
 		font-size: 30px;
 		line-height: 120%;
 	}
+
+	/* .courses_wrapper {
+		grid-template-columns: 1fr;
+	} */
+
 	.hero__right {
 		width: 100%;
 	}
+
 	.hero {
 		padding: 0 24px;
 	}
